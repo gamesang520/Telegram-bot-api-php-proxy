@@ -15,7 +15,7 @@
 $api = new TelegramBotApi($bot_token);
 $api->setApiURL('https://my.host.url/');
 ```
-##宝塔部署需设置伪静态
+## 宝塔设置伪静态
 ```php
 rewrite ^/bot.*$ /tgproxy.php last;
 ```
